@@ -1,0 +1,23 @@
+.cnt-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-weight: 500;
+  line-height: calc(16 / 14);
+  color: var(--scn-txt-cl);
+  letter-spacing: 0.02em;
+
+  transition: var(--anim);
+}
+
+.cnt-icon {
+  fill: var(--scn-txt-cl);
+
+  transition: var(--anim);
+}
+
+.cnt-link:hover .cnt-icon,
+.cnt-link:focus .cnt-icon {
+  fill: var(--accent-cl);
+}

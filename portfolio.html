@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+
+    <!-- Favicon -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/main.min.css" />
+
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+  </head>
+
+  <body class="page">
+    <!-- Header -->
+
+    <header class="header">
+      <div class="container header-container">
+        <a class="logo link logo-up" href="./index.html"
+          ><span class="accent">Web</span><span class="dark">Studio</span>
+        </a>
+        <nav class="main-nav">
+          <ul class="nav-list list">
+            <li class="nav-item"><a class="nav-link link" href="./index.html">Студія</a></li>
+            <li class="nav-item">
+              <div class="nav-box">
+                <a class="nav-link link current" href="./portfolio.html">Портфоліо</a>
+                <div class="nav-box-line"></div>
+              </div>
+            </li>
+            <li class="nav-item"><a class="nav-link link" href="">Контакти</a></li>
+          </ul>
+        </nav>
+        <div class="header-group">
+          <ul class="cnt-list list">
+            <li class="cnt-item">
+              <a class="cnt-link link" href="mailto:info@devstudio.com">
+                <svg class="cnt-icon" width="16" height="12">
+                  <use href="./images/icons.svg#mail"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="cnt-item">
+              <a class="cnt-link link" href="tel:+380961111111">
+                <svg class="cnt-icon" width="10" height="16">
+                  <use href="./images/icons.svg#phone"></use>
+                </svg>
+                +38 096 111 11 11
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Portfolio -->
+      <section class="section prtf">
+        <div class="container">
+          <h1 class="visually-hidden">Портфоліо</h1>
+          <ul class="prtf-list list">
+            <li class="prtf-item"> <button class="prtf-btn" type="button">Усі</button></li>
+            <li class="prtf-item"><button class="prtf-btn" type="button">Веб-сайти</button></li>
+            <li class="prtf-item"><button class="prtf-btn" type="button">Додатки</button></li>
+            <li class="prtf-item"><button class="prtf-btn" type="button">Дизайн</button></li>
+            <li class="prtf-item"><button class="prtf-btn" type="button">Маркетинг</button></li>
+          </ul>
+          <ul class="img-list list">
+            <li class="img-item">
+              <a class="img-link link" href="">
+                <div class="prtf-thumb">
+                  <img src="./images/img-prtf-1.jpg" alt="Img1" width="368" height="292" />
+                  <div class="overlay">
+                    <p class="overlay-decr">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="prtf-text">
+                  <h3 class="prtf-title">Технокряк</h3>
+                  <p class="prtf-subtitle">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="img-item">
+              <a class="img-link link" href="">
+                <div class="prtf-thumb">
+                  <img src="./images/img-prtf-2.jpg" alt="Img2" width="368" height="292" />
+                  <div class="overlay">
+                    <p class="overlay-decr">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="prtf-text">
+                  <h3 class="prtf-title">Постер New Orlean vs Golden Star</h3>
+                  <p class="prtf-subtitle">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="img-item">
+              <a class="img-link link" href="">
+                <div class="prtf-thumb">
+                  <img src="./images/img-prtf-3.jpg" alt="Img3" width="368" height="292" />
+                  <div class="overlay">
+                    <p class="overlay-decr">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="prtf-text">
+                  <h3 class="prtf-title">Ресторан Seafood</h3>
+                  <p class="prtf-subtitle">Додаток</p>
+                </div>
+              </a>
+            </li>
+            <li class="img-item">
+              <a class="img-link link" href="">
+                <div class="prtf-thumb">
+                  <img src="./images/img-prtf-4.jpg" alt="Img4" width="368" height="292" />
+                  <div class="overlay">
+                    <p class="overlay-decr">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="prtf-text">
+                  <h3 class="prtf-title">Проєкт Prime</h3>
+                  <p class="prtf-subtitle">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="img-item">
+              <a class="img-link link" href="">
+                <div class="prtf-thumb">
+                  <img src="./images/img-prtf-5.jpg" alt="Img5" width="368" height="292" />
+                  <div class="overlay">
+                    <p class="overlay-decr">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="prtf-text">
+                  <h3 class="prtf-title">Проєкт Boxes</h3>
+                  <p class="prtf-subtitle">Додаток</p>
+                </div>
+              </a>
+            </li>
+            <li class="img-item">
+              <a class="img-link link" href="">
+                <div class="prtf-thumb">
+                  <img src="./images/img-prtf-6.jpg" alt="Img6" width="368" height="292" />
+                  <div class="overlay">
+                    <p class="overlay-decr">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="prtf-text">
+                  <h3 class="prtf-title">Inspiration has no Borders</h3>
+                  <p class="prtf-subtitle">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="img-item">
+              <a class="img-link link" href="">
+                <div class="prtf-thumb">
+                  <img src="./images/img-prtf-7.jpg" alt="Img7" width="368" height="292" />
+                  <div class="overlay">
+                    <p class="overlay-decr">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="prtf-text">
+                  <h3 class="prtf-title">Видання Limited Edition</h3>
+                  <p class="prtf-subtitle">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="img-item">
+              <a class="img-link link" href="">
+                <div class="prtf-thumb">
+                  <img src="./images/img-prtf-8.jpg" alt="Img8" width="368" height="292" />
+                  <div class="overlay">
+                    <p class="overlay-decr">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="prtf-text">
+                  <h3 class="prtf-title">Проєкт LAB</h3>
+                  <p class="prtf-subtitle">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="img-item">
+              <a class="img-link link" href="">
+                <div class="prtf-thumb">
+                  <img src="./images/img-prtf-9.jpg" alt="Img9" width="368" height="292" />
+                  <div class="overlay">
+                    <p class="overlay-decr">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="prtf-text">
+                  <h3 class="prtf-title">Growing Business</h3>
+                  <p class="prtf-subtitle">Додаток</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-text">
+          <a class="logo link" href="./index.html">
+            <span class="accent">Web</span><span class="light">Studio</span>
+          </a>
+          <address class="addr">
+            <ul class="addr-list list">
+              <li class="addr-item">
+                <a class="addr-link link" href="">м. Київ, пр-т Лесі Українки, 26 </a>
+              </li>
+              <li class="addr-item">
+                <a class="addr-link link tm" href="mailto:info@devstudio.com"
+                  >info@devstudio.com
+                </a>
+              </li>
+              <li class="addr-item">
+                <a class="addr-link link tm" href="tel:+380961111111">+38 096 111 11 11 </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="socials-footer">
+          <h2 class="socials-footer-title">ПРИЄДНУЙТЕСЬ</h2>
+          <ul class="socials list">
+            <li>
+              <a
+                class="socials-link-footer link"
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <svg class="socials-icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="socials-link-footer link"
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <svg class="socials-icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="socials-link-footer link"
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <svg class="socials-icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="socials-link-footer link"
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <svg class="socials-icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-form-box">
+          <h2 class="footer-form-title">ПІДПИШИТЬСЯ НА РОЗСИЛКУ</h2>
+          <div class="footer-form">
+            <form>
+              <label>
+                <input class="input-footer" placeholder="E-mail" type="email" name="email" />
+              </label>
+              <button class="footer-form-btn" type="submit"
+                >Підписатися
+                <svg class="footer-form-icon" width="24" height="24">
+                  <use href="./images/icons.svg#send"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

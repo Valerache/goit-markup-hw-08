@@ -1,0 +1,130 @@
+.prtf {
+  background-color: var(--light-txt-cl);
+}
+
+.prtf-list {
+  display: flex;
+  padding-inline-start: 0;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
+}
+
+.prtf-btn {
+  border: none;
+  padding: 6px 22px;
+  border-radius: 4px;
+
+  transition: background-color var(--anim), color var(--anim), box-shadow var(--anim);
+}
+
+.prtf-btn,
+.active {
+  background-color: var(--fourth-bg-cl);
+}
+
+.prtf-btn:hover,
+.prtf-btn:focus {
+  background-color: var(--accent-cl);
+  color: var(--light-txt-cl);
+  box-shadow: 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.img-item {
+  background-color: var(--light-txt-cl);
+  border: 1px solid var(--fourth-bg-cl);
+
+  transition: var(--anim);
+}
+
+.img-item:hover,
+.img-item:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.img-link {
+  background-color: var(--light-txt-cl);
+}
+
+.img-list {
+  padding-inline-start: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.prtf-thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateY(100%);
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(33, 150, 243, 0.9);
+  padding: 63px 24px;
+  font-size: 18px;
+  line-height: calc(28 / 18);
+  color: var(--light-txt-cl);
+
+  transition: transform var(--anim);
+}
+
+.img-link:hover .overlay {
+  transform: translateY(0);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.active {
+  background-color: var(--accent-cl);
+  color: var(--light-txt-cl);
+  cursor: pointer;
+}
+
+.prtf-btn,
+.active {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  font-family: inherit;
+}
+
+.prtf-text {
+  padding: 20px 24px;
+}
+
+.prtf-title {
+  margin-bottom: 4px;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+
+.prtf-subtitle {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: var(--scn-txt-cl);
+}
