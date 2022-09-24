@@ -382,7 +382,6 @@ textarea {
 }
 
 .header {
-  border-bottom: 1px solid #ececec;
   background-color: var(--light-txt-cl);
 }
 
@@ -393,6 +392,7 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 .main-nav {
@@ -479,7 +479,7 @@ textarea {
   background-position: center;
   background-size: cover;
   margin: 0 auto;
-  max-width: 1600px;
+  width: 1600px;
 }
 
 .hero-title {

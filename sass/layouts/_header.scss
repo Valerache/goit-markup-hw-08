@@ -1,11 +1,11 @@
 .header {
-  border-bottom: 1px solid #ececec;
   background-color: var(--light-txt-cl);
 }
 
 .header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 .main-nav {
