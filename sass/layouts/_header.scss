@@ -1,74 +1,74 @@
-.header {
-  background-color: var(--light-txt-cl);
-}
+// .header {
+//   background-color: var(--light-txt-cl);
+// }
 
-.header-container {
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #ececec;
-}
+// .header-container {
+//   display: flex;
+//   align-items: center;
+//   border-bottom: 1px solid #ececec;
+// }
 
-.main-nav {
-  margin-right: auto;
-}
+// .main-nav {
+//   margin-right: auto;
+// }
 
-.nav-list,
-.cnt-list {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  padding-left: 0;
-}
+// .nav-list,
+// .cnt-list {
+//   display: flex;
+//   align-items: center;
+//   gap: 50px;
+//   padding-left: 0;
+// }
 
-.accent {
-  color: var(--accent-cl);
-}
+// .accent {
+//   color: var(--accent-cl);
+// }
 
-.light {
-  color: var(--light-txt-cl);
-}
+// .light {
+//   color: var(--light-txt-cl);
+// }
 
-.dark {
-  color: #000000;
-}
+// .dark {
+//   color: #000000;
+// }
 
-.nav-link:hover,
-.nav-link:focus,
-.cnt-link:hover,
-.cnt-link:focus {
-  color: var(--accent-cl);
-}
+// .nav-link:hover,
+// .nav-link:focus,
+// .cnt-link:hover,
+// .cnt-link:focus {
+//   color: var(--accent-cl);
+// }
 
-.current:visited {
-  color: var(--accent-cl);
-}
+// .current:visited {
+//   color: var(--accent-cl);
+// }
 
-.nav-box {
-  position: relative;
-}
+// .nav-box {
+//   position: relative;
+// }
 
-.nav-box-line {
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  width: 100%;
-  background-color: var(--accent-cl);
-  border-radius: 2px;
-}
+// .nav-box-line {
+//   position: absolute;
+//   left: 0;
+//   bottom: -1px;
+//   height: 4px;
+//   width: 100%;
+//   background-color: var(--accent-cl);
+//   border-radius: 2px;
+// }
 
-.nav-link {
-  padding-top: 32px;
-  display: block;
-  padding-bottom: 32px;
-  font-weight: 500;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
+// .nav-link {
+//   padding-top: 32px;
+//   display: block;
+//   padding-bottom: 32px;
+//   font-weight: 500;
+//   line-height: calc(16 / 14);
+//   letter-spacing: 0.02em;
 
-  transition: var(--anim);
-}
+//   transition: var(--anim);
+// }
 
-.header-group {
-  display: flex;
-  align-items: center;
-}
+// .header-group {
+//   display: flex;
+//   align-items: center;
+// }
