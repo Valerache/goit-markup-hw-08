@@ -411,6 +411,59 @@ textarea {
   cursor: pointer;
 }
 
+.hero {
+  background-color: var(--main-bg-cl);
+  padding-top: 118px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1600px;
+  height: 400px;
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    height: 600px;
+    padding-top: 200px;
+  }
+}
+
+.hero-title {
+  max-width: 480px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 26px;
+  line-height: 1.6153846154;
+}
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    max-width: 696px;
+    font-size: 44px;
+    line-height: 1.3636363636;
+  }
+}
+
+.hero-btn {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0;
+  background-color: var(--accent-cl);
+  color: var(--light-txt-cl);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  padding: 10px 24px;
+}
+@media screen and (min-width: 1200px) {
+  .hero-btn {
+    padding: 10px 32px;
+  }
+}
+
 .diff__list {
   -webkit-padding-start: 0;
           padding-inline-start: 0;
