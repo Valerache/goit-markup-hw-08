@@ -411,6 +411,128 @@ textarea {
   cursor: pointer;
 }
 
+.header {
+  background-color: var(--light-txt-cl);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-container {
+  max-width: 1200px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #ececec;
+}
+@media screen and (min-width: 768px) {
+  .header-container {
+    height: 80px;
+  }
+}
+
+.main-nav {
+  display: none;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .main-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.nav-list,
+.cnt-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+  padding-left: 0;
+}
+
+.accent {
+  color: var(--accent-cl);
+}
+
+.light {
+  color: var(--light-txt-cl);
+}
+
+.dark {
+  color: #000000;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.cnt-link:hover,
+.cnt-link:focus {
+  color: var(--accent-cl);
+}
+
+.current:visited {
+  color: var(--accent-cl);
+}
+
+.nav-box {
+  position: relative;
+}
+
+.nav-box-line {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  width: 100%;
+  background-color: var(--accent-cl);
+  border-radius: 2px;
+}
+
+.nav-link {
+  padding-top: 32px;
+  display: block;
+  padding-bottom: 32px;
+  font-weight: 500;
+  line-height: 1.1428571429;
+  letter-spacing: 0.02em;
+  -webkit-transition: var(--anim);
+  transition: var(--anim);
+}
+
+.header-group {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .header-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .cnt-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 10px;
+  }
+}
+
 .hero {
   background-color: var(--main-bg-cl);
   padding-top: 118px;
