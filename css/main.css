@@ -678,6 +678,11 @@ textarea {
   border: none;
   cursor: pointer;
 }
+@media screen and (min-width: 768px) {
+  .open-btn {
+    display: none;
+  }
+}
 
 .close-btn {
   display: -webkit-box;
