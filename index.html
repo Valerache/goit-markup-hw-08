@@ -217,10 +217,9 @@
             <li class="team__item">
               <img
                 class="team__img"
+                srcset="./images/team/img-1_sm-@1x.jpg 1x, ./images/team/img-1_sm-@2x.jpg 2x"
                 src="./images/img-1.jpg"
                 alt="Designer"
-                width="270"
-                height="260"
               />
               <div class="team__text">
                 <h3 class="team__title">Ігор Дем'яненко</h3>
@@ -282,12 +281,26 @@
               </div>
             </li>
             <li class="team__item">
-              <img
+              <!-- <img
                 class="team__img"
                 src="./images/img-2.jpg"
                 alt="Frontend"
                 width="270"
                 height="260"
+              /> -->
+              <img
+                class="team__img"
+                srcset="
+                  ./images/team/w/img-2_270.jpg 270w,
+                  ./images/team/w/img-2_354.jpg 354w,
+                  ./images/team/w/img-2_450.jpg 450w,
+                  ./images/team/w/img-2_540.jpg 540w,
+                  ./images/team/w/img-2_708.jpg 708w,
+                  ./images/team/w/img-2_900.jpg 900w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="./images/team/w/img-2_450.jpg"
+                alt="Frontend"
               />
               <div class="team__text">
                 <h3 class="team__title">Ольга Рєпіна</h3>
