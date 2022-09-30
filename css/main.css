@@ -367,12 +367,6 @@ img {
   }
 }
 
-.container,
-.section {
-  outline: 2px solid red;
-  outline-offset: -2px;
-}
-
 .logo {
   font-family: var(--scn-font);
   font-weight: 700;
@@ -476,12 +470,18 @@ img {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 528px;
-  height: 581px;
   background-color: var(--light-txt-cl);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  width: 528px;
+  height: 581px;
+}
+@media screen and (max-width: 1199px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
 }
 
 .modal-btn {
@@ -625,9 +625,19 @@ textarea {
 .check-text {
   color: var(--scn-txt-cl);
 }
+@media screen and (max-width: 1199px) {
+  .check-text {
+    font-size: 12px;
+  }
+}
 
 .check-text-accent {
   color: var(--accent-cl);
+}
+@media screen and (max-width: 1199px) {
+  .check-text-accent {
+    font-size: 12px;
+  }
 }
 
 .text {
@@ -1452,6 +1462,20 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
 
 .socials-footer {
   margin-bottom: 60px;
@@ -1466,7 +1490,6 @@ textarea {
   line-height: 1.1428571429;
   color: var(--light-txt-cl);
   margin-bottom: 20px;
-  text-align: center;
 }
 
 .socials-link-footer {
@@ -1530,18 +1553,10 @@ textarea {
   line-height: 1.1428571429;
   color: var(--light-txt-cl);
   margin-bottom: 20px;
-  text-align: center;
-}
-
-.footer-form-box {
-  min-width: 450px;
 }
 
 .footer-form-btn {
-  display: block;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
   width: 200px;
   height: 50px;
   padding-left: 28px;
@@ -1568,17 +1583,14 @@ textarea {
 }
 
 .input-footer {
-  display: block;
-  max-width: 450px;
+  width: 358px;
   height: 50px;
-  margin-left: auto;
-  margin-right: auto;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: var(--main-bg-cl);
+  margin-right: 12px;
   padding-left: 16px;
   color: var(--light-txt-cl);
-  margin-bottom: 20px;
 }/*# sourceMappingURL=main.css.map */
