@@ -1091,21 +1091,30 @@ textarea {
 
 .team__section {
   background-color: var(--third-bg-cl);
-  max-width: 480px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .team__caption {
   margin-bottom: 50px;
+  font-size: 36px;
   font-size: 28px;
   line-height: 1.1666666667;
   text-align: center;
 }
 
 .team__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-padding-start: 0;
           padding-inline-start: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .team__item {
@@ -1218,6 +1227,8 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-padding-start: 0;
           padding-inline-start: 0;
   -webkit-box-pack: center;
@@ -1225,6 +1236,13 @@ textarea {
           justify-content: center;
   gap: 8px;
   margin-bottom: 50px;
+}
+@media screen and (max-width: 767px) {
+  .prtf-list {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
 }
 
 .prtf-btn {
