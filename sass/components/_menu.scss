@@ -34,6 +34,11 @@
   cursor: pointer;
 }
 
+.close-btn:hover,
+.close-btn:focus {
+  fill: var(--accent-cl);
+}
+
 .menu-container {
   position: fixed;
   top: 0;
