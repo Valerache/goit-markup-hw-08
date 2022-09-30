@@ -367,12 +367,6 @@ img {
   }
 }
 
-.container,
-.section {
-  outline: 2px solid red;
-  outline-offset: -2px;
-}
-
 .logo {
   font-family: var(--scn-font);
   font-weight: 700;
