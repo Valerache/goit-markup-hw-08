@@ -843,6 +843,7 @@ textarea {
   background-color: var(--light-txt-cl);
   max-width: 1200px;
   margin: 0 auto;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
@@ -854,7 +855,6 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 @media screen and (min-width: 768px) {
   .header-container {

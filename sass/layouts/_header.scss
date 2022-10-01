@@ -2,15 +2,14 @@
   background-color: var(--light-txt-cl);
   max-width: 1200px;
   margin: 0 auto;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
   max-width: 1200px;
   height: 60px;
   display: flex;
-  //   flex: center;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 
   @media screen and (min-width: 768px) {
     height: 80px;
