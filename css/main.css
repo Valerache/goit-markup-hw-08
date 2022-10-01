@@ -822,6 +822,11 @@ textarea {
 
 .scl-link {
   color: var(--accent-cl);
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.scl-link:nth-child(3) {
+  border: none;
 }
 
 .menu-toggle {
@@ -1562,6 +1567,11 @@ textarea {
   -webkit-padding-start: 0;
           padding-inline-start: 0;
   margin-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .addr-list {
+    margin-bottom: 0;
+  }
 }
 
 .addr-item {

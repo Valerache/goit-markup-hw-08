@@ -125,6 +125,11 @@
 
 .scl-link {
   color: var(--accent-cl);
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.scl-link:nth-child(3) {
+  border: none;
 }
 
 .menu-toggle {
