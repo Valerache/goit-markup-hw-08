@@ -113,7 +113,7 @@
 .mobile-socials {
   display: flex;
   margin-top: 64px;
-  gap: 20px;
+  gap: 10px;
   justify-content: start;
   font-weight: 500;
   font-size: 18px;
@@ -124,13 +124,14 @@
 }
 
 .scl-link {
+  padding-right: 10px;
   color: var(--accent-cl);
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 
-.scl-link:nth-child(3) {
-  border: none;
-}
+// .scl-link:last-child {
+//   border: none;
+// }
 
 .menu-toggle {
   position: absolute;
