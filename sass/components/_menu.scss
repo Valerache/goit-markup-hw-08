@@ -123,15 +123,18 @@
   color: var(--accent-cl);
 }
 
-.scl-link {
-  padding-right: 10px;
-  color: var(--accent-cl);
+.mobile-scl-item {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 
-// .scl-link:last-child {
-//   border: none;
-// }
+.mobile-scl-item:last-child {
+  border-right: transparent;
+}
+
+.scl-link {
+  padding-right: 10px;
+  color: var(--accent-cl);
+}
 
 .menu-toggle {
   position: absolute;
