@@ -22,6 +22,13 @@
     align-items: baseline;
     gap: 165px;
   }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 70px;
+  }
 }
 
 .footer-text {

@@ -1493,6 +1493,21 @@ textarea {
     gap: 165px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer-md {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    gap: 70px;
+  }
+}
 
 @media screen and (max-width: 1199px) {
   .footer-text {
