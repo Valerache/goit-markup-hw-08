@@ -1430,6 +1430,11 @@ textarea {
   border-right: 1px solid var(--fourth-bg-cl);
   border-bottom: 1px solid var(--fourth-bg-cl);
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .prtf-text {
+    max-width: 354px;
+  }
+}
 
 .prtf-title {
   margin-bottom: 4px;
