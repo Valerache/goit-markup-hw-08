@@ -50,9 +50,12 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  // flex-grow: 1;
 }
 
 .img-item {
+  // display: flex;
+  // flex-direction: column;
   background-color: var(--light-txt-cl);
 
   transition: var(--anim);
@@ -110,6 +113,12 @@
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     max-width: 354px;
+  }
+}
+
+.first {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding-bottom: 56px;
   }
 }
 
