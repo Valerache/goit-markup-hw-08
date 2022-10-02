@@ -1528,6 +1528,9 @@ textarea {
   }
 }
 
+.footer-text {
+  max-width: 100%;
+}
 @media screen and (max-width: 1199px) {
   .footer-text {
     text-align: center;
