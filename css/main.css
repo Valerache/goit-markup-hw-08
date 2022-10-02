@@ -1282,9 +1282,14 @@ textarea {
   -webkit-transition: var(--anim);
   transition: var(--anim);
 }
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .clients__link {
+    width: 130px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .clients__link {
-    width: 354px;
+    width: 226px;
   }
 }
 @media screen and (min-width: 1200px) {
