@@ -84,6 +84,10 @@
   color: var(--accent-cl);
 }
 
+.menu-link .current {
+  color: var(--accent-cl);
+}
+
 .mobile-cnt {
   display: flex;
   flex-direction: column;

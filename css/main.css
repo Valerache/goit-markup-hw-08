@@ -775,6 +775,10 @@ textarea {
   color: var(--accent-cl);
 }
 
+.menu-link .current {
+  color: var(--accent-cl);
+}
+
 .mobile-cnt {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -905,7 +909,7 @@ textarea {
   color: var(--accent-cl);
 }
 
-.current:visited {
+.current {
   color: var(--accent-cl);
 }
 
@@ -958,6 +962,7 @@ textarea {
         -ms-flex-align: start;
             align-items: flex-start;
     gap: 10px;
+    font-size: 12px;
   }
 }
 
