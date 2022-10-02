@@ -102,6 +102,10 @@
   margin-bottom: 32px;
 
   color: var(--accent-cl);
+
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    font-size: 30px;
+  }
 }
 
 .mail-link {
@@ -125,6 +129,10 @@
   letter-spacing: 0.02em;
 
   color: var(--accent-cl);
+
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    font-size: 12px;
+  }
 }
 
 .mobile-scl-item {

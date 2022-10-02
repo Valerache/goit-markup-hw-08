@@ -480,7 +480,6 @@ img {
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .modal {
     width: 100%;
-    height: auto;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -804,6 +803,11 @@ textarea {
   margin-bottom: 32px;
   color: var(--accent-cl);
 }
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .tel-link {
+    font-size: 30px;
+  }
+}
 
 .mail-link {
   font-weight: 500;
@@ -828,6 +832,11 @@ textarea {
   line-height: 1.2222222222;
   letter-spacing: 0.02em;
   color: var(--accent-cl);
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .mobile-socials {
+    font-size: 12px;
+  }
 }
 
 .mobile-scl-item {
