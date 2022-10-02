@@ -1615,6 +1615,12 @@ textarea {
   color: var(--accent-cl);
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .footer-form-box {
+    max-width: 100%;
+  }
+}
+
 .footer-form-title {
   font-size: 14px;
   line-height: 1.1428571429;
@@ -1669,16 +1675,29 @@ textarea {
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: var(--main-bg-cl);
-  margin-right: 12px;
+  margin-bottom: 20px;
   padding-left: 16px;
   color: var(--light-txt-cl);
 }
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
   .input-footer {
     display: block;
-    max-width: 450px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  .input-footer {
+    display: block;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .input-footer {
+    width: 358px;
+    margin-right: 12px;
   }
 }/*# sourceMappingURL=main.css.map */
