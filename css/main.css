@@ -477,6 +477,12 @@ img {
   width: 528px;
   height: 581px;
 }
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .modal {
+    width: 100%;
+    height: auto;
+  }
+}
 @media screen and (max-width: 1199px) {
   .modal {
     max-width: 450px;
